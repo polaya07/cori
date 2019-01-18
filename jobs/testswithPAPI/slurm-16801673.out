@@ -1,0 +1,125 @@
+Trying all powercap events
+Found powercap component at cid 2
+
+Starting measurements...
+
+Doing a naive 1024x1024 MMM...
+Matrix multiply sum: s=1016404871450364.375000
+
+Stopping measurements, took 13.021s, gathering results...
+
+
+scaled energy measurements:
+powercap:::ENERGY_UJ:ZONE0                                       245.742412 J (Average Power 18.9W)
+powercap:::ENERGY_UJ:ZONE0_SUBZONE0                              45.251310 J (Average Power 3.5W)
+powercap:::ENERGY_UJ:ZONE1                                       320.810764 J (Average Power 24.6W)
+powercap:::ENERGY_UJ:ZONE1_SUBZONE0                              33.385136 J (Average Power 2.6W)
+
+energy counts:
+powercap:::ENERGY_UJ:ZONE0                                          245742412	0xea5bb4c
+powercap:::ENERGY_UJ:ZONE0_SUBZONE0                                  45251310	0x2b27aee
+powercap:::ENERGY_UJ:ZONE1                                          320810764	0x131f2f0c
+powercap:::ENERGY_UJ:ZONE1_SUBZONE0                                  33385136	0x1fd6ab0
+
+long term time window values:
+powercap:::TIME_WINDOW_A_US:ZONE0                                0.999424 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE0_SUBZONE0                       0.000976 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE1                                0.999424 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE1_SUBZONE0                       0.000976 (secs)
+
+short term time window values:
+
+long term power limit:
+powercap:::POWER_LIMIT_A_UW:ZONE0                                135.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE0_SUBZONE0                       25.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE1                                135.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE1_SUBZONE0                       25.000000 (watts)
+
+short term power limit:
+powercap:::POWER_LIMIT_B_UW:ZONE0                                270.000000 (watts)
+powercap:::POWER_LIMIT_B_UW:ZONE1                                270.000000 (watts)
+PASSED
+Trying all powercap events
+Found powercap component at cid 2
+
+Starting measurements...
+
+Doing a naive 1024x1024 MMM...
+Matrix multiply sum: s=1016404871450364.375000
+
+Stopping measurements, took 6.852s, gathering results...
+
+
+scaled energy measurements:
+powercap:::ENERGY_UJ:ZONE0                                       206.154746 J (Average Power 30.1W)
+powercap:::ENERGY_UJ:ZONE0_SUBZONE0                              23.513514 J (Average Power 3.4W)
+powercap:::ENERGY_UJ:ZONE1                                       300.907677 J (Average Power 43.9W)
+powercap:::ENERGY_UJ:ZONE1_SUBZONE0                              25.077036 J (Average Power 3.7W)
+
+energy counts:
+powercap:::ENERGY_UJ:ZONE0                                          206154746	0xc49abfa
+powercap:::ENERGY_UJ:ZONE0_SUBZONE0                                  23513514	0x166c9aa
+powercap:::ENERGY_UJ:ZONE1                                          300907677	0x11ef7c9d
+powercap:::ENERGY_UJ:ZONE1_SUBZONE0                                  25077036	0x17ea52c
+
+long term time window values:
+powercap:::TIME_WINDOW_A_US:ZONE0                                0.999424 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE0_SUBZONE0                       0.000976 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE1                                0.999424 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE1_SUBZONE0                       0.000976 (secs)
+
+short term time window values:
+
+long term power limit:
+powercap:::POWER_LIMIT_A_UW:ZONE0                                135.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE0_SUBZONE0                       25.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE1                                135.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE1_SUBZONE0                       25.000000 (watts)
+
+short term power limit:
+powercap:::POWER_LIMIT_B_UW:ZONE0                                270.000000 (watts)
+powercap:::POWER_LIMIT_B_UW:ZONE1                                270.000000 (watts)
+PASSED
+srun: Job 16801673 step creation temporarily disabled, retrying
+srun: Step created for job 16801673
+Trying all powercap events
+Found powercap component at cid 2
+
+Starting measurements...
+
+Doing a naive 1024x1024 MMM...
+Matrix multiply sum: s=1016404871450364.375000
+
+Stopping measurements, took 6.867s, gathering results...
+
+
+scaled energy measurements:
+powercap:::ENERGY_UJ:ZONE0                                       208.408158 J (Average Power 30.3W)
+powercap:::ENERGY_UJ:ZONE0_SUBZONE0                              24.787820 J (Average Power 3.6W)
+powercap:::ENERGY_UJ:ZONE1                                       301.840291 J (Average Power 44.0W)
+powercap:::ENERGY_UJ:ZONE1_SUBZONE0                              25.820173 J (Average Power 3.8W)
+
+energy counts:
+powercap:::ENERGY_UJ:ZONE0                                          208408158	0xc6c0e5e
+powercap:::ENERGY_UJ:ZONE0_SUBZONE0                                  24787820	0x17a3b6c
+powercap:::ENERGY_UJ:ZONE1                                          301840291	0x11fdb7a3
+powercap:::ENERGY_UJ:ZONE1_SUBZONE0                                  25820173	0x189fc0d
+
+long term time window values:
+powercap:::TIME_WINDOW_A_US:ZONE0                                0.999424 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE0_SUBZONE0                       0.000976 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE1                                0.999424 (secs)
+powercap:::TIME_WINDOW_A_US:ZONE1_SUBZONE0                       0.000976 (secs)
+
+short term time window values:
+
+long term power limit:
+powercap:::POWER_LIMIT_A_UW:ZONE0                                135.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE0_SUBZONE0                       25.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE1                                135.000000 (watts)
+powercap:::POWER_LIMIT_A_UW:ZONE1_SUBZONE0                       25.000000 (watts)
+
+short term power limit:
+powercap:::POWER_LIMIT_B_UW:ZONE0                                270.000000 (watts)
+powercap:::POWER_LIMIT_B_UW:ZONE1                                270.000000 (watts)
+PASSED

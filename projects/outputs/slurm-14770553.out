@@ -1,0 +1,3 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'PrgEnv-intel' is currently not loaded
+Tue Sep 11 14:33:53 2018: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Tue Sep 11 14:33:53 2018: [unset]:_pmi_init:_pmi_alps_init returned -1

@@ -1,0 +1,237 @@
+Warning this version of boost is deprecated
+It will be removed on January 8, 2019
+Please switch to 1.67.0 or higher
+17540562
+2019_01_03-05:51:34
+2019_01_03-05:51:35
+Thu Jan  3 05:51:35 2019: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Thu Jan  3 05:51:35 2019: [unset]:_pmi_init:_pmi_alps_init returned -1
+Running 2 test cases...
+
+*** No errors detected
+; "SupportedThreads",64,"UsedThreads",64,"TotalMemory",135065362432,"PlanRigor","estimate","PlanTimeLimit [s]","None","NumberWarmups",2,"NumberWarmRuns",10,"NumberTotalRuns",12,"ErrorBound",1e-05,"CurrentTime",1546523495,"CurrentTimeLocal","Thu Jan  3 05:51:35 2019","Hostname","nid01078","gearshifft","0.3.0"
+; "Time_ContextCreate [ms]", 9.9e-05
+; "Time_ContextDestroy [ms]", 3.4e-05
+Fftw_mkl_gnuwrapper, RunsPerBenchmark=12
+----------------------------------------------------------------------
+Inplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=8192
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0002599 [avg]
+       Time_PlanInitFwd [ms]:        0.0592654 [avg]
+       Time_PlanInitInv [ms]:         0.107659 [avg]
+            Time_Upload [ms]:        0.0056216 [avg]
+               Time_FFT [ms]:        0.0210305 [avg]
+              Time_iFFT [ms]:        0.0184438 [avg]
+          Time_Download [ms]:        0.0031212 [avg]
+       Time_PlanDestroy [ms]:        0.0185241 [avg]
+             Time_Total [ms]:         0.234184 [avg]
+   Size_DeviceBuffer [bytes]:            65552 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:            65536 [avg]
+     Error_StandardDeviation:      2.77573e-17 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Outplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=8192
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0005911 [avg]
+       Time_PlanInitFwd [ms]:        0.0870309 [avg]
+       Time_PlanInitInv [ms]:         0.108707 [avg]
+            Time_Upload [ms]:        0.0052245 [avg]
+               Time_FFT [ms]:        0.0204705 [avg]
+              Time_iFFT [ms]:        0.0212653 [avg]
+          Time_Download [ms]:        0.0043565 [avg]
+       Time_PlanDestroy [ms]:        0.0226057 [avg]
+             Time_Total [ms]:         0.270512 [avg]
+   Size_DeviceBuffer [bytes]:           131088 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:            65536 [avg]
+     Error_StandardDeviation:      2.77573e-17 [avg]
+            Error_Mismatches:                0 [avg]
+
+Results dumped to /global/homes/p/polaya/projects/17540562/8192/haswell_wc.csv
+
+real	0m0.757s
+user	0m0.032s
+sys	0m0.164s
+2019_01_03-05:51:36
+2019_01_03-05:51:36
+/var/spool/slurmd/job17540562/slurm_script: line 73:  4242 Terminated              $HOME/projects/powercap/powercap_plot  (wd: ~/projects/17540562/8192)
+2019_01_03-05:51:36
+Thu Jan  3 05:51:36 2019: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Thu Jan  3 05:51:36 2019: [unset]:_pmi_init:_pmi_alps_init returned -1
+Running 2 test cases...
+
+*** No errors detected
+; "SupportedThreads",64,"UsedThreads",64,"TotalMemory",135065362432,"PlanRigor","estimate","PlanTimeLimit [s]","None","NumberWarmups",2,"NumberWarmRuns",10,"NumberTotalRuns",12,"ErrorBound",1e-05,"CurrentTime",1546523497,"CurrentTimeLocal","Thu Jan  3 05:51:37 2019","Hostname","nid01078","gearshifft","0.3.0"
+; "Time_ContextCreate [ms]", 8e-05
+; "Time_ContextDestroy [ms]", 6.6e-05
+Fftw_mkl_gnuwrapper, RunsPerBenchmark=12
+----------------------------------------------------------------------
+Inplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=262144
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0051362 [avg]
+       Time_PlanInitFwd [ms]:         0.614106 [avg]
+       Time_PlanInitInv [ms]:         0.551206 [avg]
+            Time_Upload [ms]:          1.21509 [avg]
+               Time_FFT [ms]:         0.269084 [avg]
+              Time_iFFT [ms]:         0.169543 [avg]
+          Time_Download [ms]:         0.268786 [avg]
+       Time_PlanDestroy [ms]:          0.55278 [avg]
+             Time_Total [ms]:          3.64634 [avg]
+   Size_DeviceBuffer [bytes]:      2.09717e+06 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:      2.09715e+06 [avg]
+     Error_StandardDeviation:      2.77556e-17 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Outplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=262144
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0106715 [avg]
+       Time_PlanInitFwd [ms]:         0.623862 [avg]
+       Time_PlanInitInv [ms]:          0.54777 [avg]
+            Time_Upload [ms]:          1.23333 [avg]
+               Time_FFT [ms]:           6.9781 [avg]
+              Time_iFFT [ms]:         0.172701 [avg]
+          Time_Download [ms]:         0.246985 [avg]
+       Time_PlanDestroy [ms]:          0.71754 [avg]
+             Time_Total [ms]:          10.5316 [avg]
+   Size_DeviceBuffer [bytes]:      4.19432e+06 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:      2.09715e+06 [avg]
+     Error_StandardDeviation:      2.77556e-17 [avg]
+            Error_Mismatches:                0 [avg]
+
+Results dumped to /global/homes/p/polaya/projects/17540562/262144/haswell_wc.csv
+
+real	0m0.698s
+user	0m9.992s
+sys	0m9.004s
+2019_01_03-05:51:38
+/var/spool/slurmd/job17540562/slurm_script: line 79: kill: %1: no such job
+2019_01_03-05:51:38
+2019_01_03-05:51:38
+Thu Jan  3 05:51:38 2019: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Thu Jan  3 05:51:38 2019: [unset]:_pmi_init:_pmi_alps_init returned -1
+Running 2 test cases...
+
+*** No errors detected
+; "SupportedThreads",64,"UsedThreads",64,"TotalMemory",135065362432,"PlanRigor","estimate","PlanTimeLimit [s]","None","NumberWarmups",2,"NumberWarmRuns",10,"NumberTotalRuns",12,"ErrorBound",1e-05,"CurrentTime",1546523499,"CurrentTimeLocal","Thu Jan  3 05:51:39 2019","Hostname","nid01078","gearshifft","0.3.0"
+; "Time_ContextCreate [ms]", 8.2e-05
+; "Time_ContextDestroy [ms]", 5.8e-05
+Fftw_mkl_gnuwrapper, RunsPerBenchmark=12
+----------------------------------------------------------------------
+Inplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=524288
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0067587 [avg]
+       Time_PlanInitFwd [ms]:          1.18452 [avg]
+       Time_PlanInitInv [ms]:          1.14525 [avg]
+            Time_Upload [ms]:           3.1347 [avg]
+               Time_FFT [ms]:         0.491121 [avg]
+              Time_iFFT [ms]:         0.431501 [avg]
+          Time_Download [ms]:         0.403499 [avg]
+       Time_PlanDestroy [ms]:          1.37226 [avg]
+             Time_Total [ms]:          8.17045 [avg]
+   Size_DeviceBuffer [bytes]:      4.19432e+06 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:       4.1943e+06 [avg]
+     Error_StandardDeviation:      2.77556e-17 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Outplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=524288
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0124021 [avg]
+       Time_PlanInitFwd [ms]:          1.18353 [avg]
+       Time_PlanInitInv [ms]:          1.13986 [avg]
+            Time_Upload [ms]:           3.1605 [avg]
+               Time_FFT [ms]:           0.7741 [avg]
+              Time_iFFT [ms]:         0.365099 [avg]
+          Time_Download [ms]:         0.406784 [avg]
+       Time_PlanDestroy [ms]:          1.84551 [avg]
+             Time_Total [ms]:          8.88864 [avg]
+   Size_DeviceBuffer [bytes]:      8.38862e+06 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:       4.1943e+06 [avg]
+     Error_StandardDeviation:      2.77556e-17 [avg]
+            Error_Mismatches:                0 [avg]
+
+Results dumped to /global/homes/p/polaya/projects/17540562/524288/haswell_wc.csv
+
+real	0m0.869s
+user	0m21.216s
+sys	0m3.708s
+2019_01_03-05:51:40
+/var/spool/slurmd/job17540562/slurm_script: line 96: kill: %1: no such job
+2019_01_03-05:51:40
+2019_01_03-05:51:40
+Thu Jan  3 05:51:40 2019: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Thu Jan  3 05:51:40 2019: [unset]:_pmi_init:_pmi_alps_init returned -1
+Running 2 test cases...
+
+*** No errors detected
+; "SupportedThreads",64,"UsedThreads",64,"TotalMemory",135065362432,"PlanRigor","estimate","PlanTimeLimit [s]","None","NumberWarmups",2,"NumberWarmRuns",10,"NumberTotalRuns",12,"ErrorBound",1e-05,"CurrentTime",1546524632,"CurrentTimeLocal","Thu Jan  3 06:10:32 2019","Hostname","nid01078","gearshifft","0.3.0"
+; "Time_ContextCreate [ms]", 7.2e-05
+; "Time_ContextDestroy [ms]", 2.8e-05
+Fftw_mkl_gnuwrapper, RunsPerBenchmark=12
+----------------------------------------------------------------------
+Inplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=268435456
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0070122 [avg]
+       Time_PlanInitFwd [ms]:          336.392 [avg]
+       Time_PlanInitInv [ms]:          336.229 [avg]
+            Time_Upload [ms]:          1562.38 [avg]
+               Time_FFT [ms]:          733.598 [avg]
+              Time_iFFT [ms]:          8210.42 [avg]
+          Time_Download [ms]:          252.071 [avg]
+       Time_PlanDestroy [ms]:          433.116 [avg]
+             Time_Total [ms]:          11864.2 [avg]
+   Size_DeviceBuffer [bytes]:      2.14748e+09 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:      2.14748e+09 [avg]
+     Error_StandardDeviation:      2.77556e-17 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Outplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=268435456
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0136179 [avg]
+       Time_PlanInitFwd [ms]:          335.464 [avg]
+       Time_PlanInitInv [ms]:          332.431 [avg]
+            Time_Upload [ms]:          1577.61 [avg]
+               Time_FFT [ms]:          7618.99 [avg]
+              Time_iFFT [ms]:          8295.43 [avg]
+          Time_Download [ms]:          250.204 [avg]
+       Time_PlanDestroy [ms]:           600.96 [avg]
+             Time_Total [ms]:          19011.1 [avg]
+   Size_DeviceBuffer [bytes]:      4.29497e+09 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:      2.14748e+09 [avg]
+     Error_StandardDeviation:      2.77556e-17 [avg]
+            Error_Mismatches:                0 [avg]
+
+Results dumped to /global/homes/p/polaya/projects/17540562/268435456/haswell_wc.csv
+
+real	18m52.175s
+user	83m9.512s
+sys	421m56.460s
+2019_01_03-06:10:33
+/var/spool/slurmd/job17540562/slurm_script: line 113: kill: %1: no such job
+2019_01_03-06:10:33
+2019_01_03-06:10:33
+Thu Jan  3 06:10:33 2019: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Thu Jan  3 06:10:33 2019: [unset]:_pmi_init:_pmi_alps_init returned -1
+Running 2 test cases...
+unknown location(0): fatal error: in "Fftw_mkl_gnuwrapper/double/4294967296/Inplace_Real": std::runtime_error: FFT data exceeds physical memory. 128312094310<18446743970630336560 (bytes)
+unknown location(0): fatal error: in "Fftw_mkl_gnuwrapper/double/4294967296/Outplace_Real": std::runtime_error: FFT data exceeds physical memory. 128312094310<18446744039349813264 (bytes)
+
+*** 2 failures are detected in the test module "Master Test Suite"
+; "SupportedThreads",64,"UsedThreads",64,"TotalMemory",135065362432,"PlanRigor","estimate","PlanTimeLimit [s]","None","NumberWarmups",2,"NumberWarmRuns",10,"NumberTotalRuns",12,"ErrorBound",1e-05,"CurrentTime",1546524633,"CurrentTimeLocal","Thu Jan  3 06:10:33 2019","Hostname","nid01078","gearshifft","0.3.0"
+; "Time_ContextCreate [ms]", 7.5e-05
+; "Time_ContextDestroy [ms]", 4.1e-05
+Fftw_mkl_gnuwrapper, RunsPerBenchmark=12
+
+Results dumped to /global/homes/p/polaya/projects/17540562/4294967296/haswell_wc.csv
+
+real	0m0.080s
+user	0m0.004s
+sys	0m0.012s
+2019_01_03-06:10:34
+/var/spool/slurmd/job17540562/slurm_script: line 130: kill: %1: no such job

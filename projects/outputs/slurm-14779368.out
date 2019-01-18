@@ -1,0 +1,6 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'PrgENV-intel' is currently not loaded
+/global/homes/p/polaya/projects/gearshifft-knl/bin/gearshifft_fftw: symbol lookup error: /global/homes/p/polaya/projects/gearshifft-knl/bin/gearshifft_fftw: undefined symbol: _ZN5boost15program_options3argB5cxx11E
+
+real	0m0.516s
+user	0m0.040s
+sys	0m0.312s

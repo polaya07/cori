@@ -1,0 +1,37 @@
+Error in pwrite(): : Bad file descriptor
+Error in pwrite(): : Bad file descriptor
+Error in pwrite(): : Bad file descriptor
+Error in pwrite(): : Bad file descriptor
+Error in pwrite(): : Bad file descriptor
+Error in pwrite(): : Bad file descriptor
+Error in pwrite(): : Bad file descriptor
+Error in pwrite(): : Bad file descriptor
+Trying all powercap events
+Found powercap component at cid 2
+
+CURRENT LIMITS
+EVENT: powercap:::POWER_LIMIT_A_UW:ZONE0	LIMIT: 135.00 Watts
+EVENT: powercap:::POWER_LIMIT_B_UW:ZONE0	LIMIT: 270.00 Watts
+EVENT: powercap:::POWER_LIMIT_A_UW:ZONE1	LIMIT: 135.00 Watts
+EVENT: powercap:::POWER_LIMIT_B_UW:ZONE1	LIMIT: 270.00 Watts
+
+SETTING LIMITS 10 WATTS BELOW CURRENT LIMITS
+RETVAL 0
+READING LIMITS TO MAKE SURE SET
+
+NEW LIMITS
+EVENT: powercap:::POWER_LIMIT_A_UW:ZONE0	LIMIT: 135.00 Watts
+EVENT: powercap:::POWER_LIMIT_B_UW:ZONE0	LIMIT: 270.00 Watts
+EVENT: powercap:::POWER_LIMIT_A_UW:ZONE1	LIMIT: 135.00 Watts
+EVENT: powercap:::POWER_LIMIT_B_UW:ZONE1	LIMIT: 270.00 Watts
+
+RESET LIMITS BEFORE EXITING...
+READING RESET LIMITS TO MAKE SURE SET
+
+RESET LIMITS
+EVENT: powercap:::POWER_LIMIT_A_UW:ZONE0	LIMIT: 135.00 Watts
+EVENT: powercap:::POWER_LIMIT_B_UW:ZONE0	LIMIT: 270.00 Watts
+EVENT: powercap:::POWER_LIMIT_A_UW:ZONE1	LIMIT: 135.00 Watts
+EVENT: powercap:::POWER_LIMIT_B_UW:ZONE1	LIMIT: 270.00 Watts
+done
+[1;32mPASSED[0m

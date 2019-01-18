@@ -1,0 +1,6 @@
+#!/bin/sh
+TAUROOT=/global/homes/p/polaya/sw/tau
+MACHINE=craycnl
+LIBDIR=${TAUROOT}/${MACHINE}/lib
+
+java -Xmx500m -cp ${LIBDIR}/TauIL.jar:${LIBDIR}/ParaProf.jar:${LIBDIR}/ParaProf-Old.jar:${LIBDIR}/java_cup.jar:${LIBDIR}/perfdmf.jar TauIL.Tool $@

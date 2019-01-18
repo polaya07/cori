@@ -1,0 +1,4 @@
+; "SupportedThreads",64,"UsedThreads",64,"TotalMemory",135065362432,"PlanRigor","estimate","PlanTimeLimit [s]","None","NumberWarmups",2,"NumberWarmRuns",10,"NumberTotalRuns",12,"ErrorBound",1e-05,"CurrentTime",1546524633,"CurrentTimeLocal","Thu Jan  3 06:10:33 2019","Hostname","nid01078","gearshifft","0.3.0"
+; "Time_ContextCreate [ms]", 7.5e-05
+; "Time_ContextDestroy [ms]", 4.1e-05
+"library","inplace","complex","precision","dim","kind","nx","ny","nz","run","id","success","Time_Allocation [ms]","Time_PlanInitFwd [ms]","Time_PlanInitInv [ms]","Time_Upload [ms]","Time_FFT [ms]","Time_iFFT [ms]","Time_Download [ms]","Time_PlanDestroy [ms]","Time_Total [ms]","Size_DeviceBuffer [bytes]","Size_DevicePlan [bytes]","Size_DeviceTransfer [bytes]","Error_StandardDeviation","Error_Mismatches"

@@ -1,0 +1,157 @@
+Warning this version of boost is deprecated
+It will be removed on January 8, 2019
+Please switch to 1.67.0 or higher
+2018_12_17-10:24:59
+2018_12_17-10:24:59
+Mon Dec 17 10:25:00 2018: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Mon Dec 17 10:25:00 2018: [unset]:_pmi_init:_pmi_alps_init returned -1
+Running 8 test cases...
+
+*** No errors detected
+; "SupportedThreads",64,"UsedThreads",64,"TotalMemory",135065378816,"PlanRigor","estimate","PlanTimeLimit [s]","None","NumberWarmups",2,"NumberWarmRuns",10,"NumberTotalRuns",12,"ErrorBound",1e-05,"CurrentTime",1545071100,"CurrentTimeLocal","Mon Dec 17 10:25:00 2018","Hostname","nid01903","gearshifft","0.3.0"
+; "Time_ContextCreate [ms]", 0.000124
+; "Time_ContextDestroy [ms]", 8.9e-05
+Fftw_mkl_gnuwrapper, RunsPerBenchmark=12
+----------------------------------------------------------------------
+Inplace, Real, float, Dim=1, Kind=powerof2 (2), Ext=32768
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0002852 [avg]
+       Time_PlanInitFwd [ms]:         0.107397 [avg]
+       Time_PlanInitInv [ms]:         0.105023 [avg]
+            Time_Upload [ms]:        0.0093839 [avg]
+               Time_FFT [ms]:         0.040617 [avg]
+              Time_iFFT [ms]:        0.0535801 [avg]
+          Time_Download [ms]:        0.0159904 [avg]
+       Time_PlanDestroy [ms]:         0.037764 [avg]
+             Time_Total [ms]:         0.370338 [avg]
+   Size_DeviceBuffer [bytes]:           131080 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:           131072 [avg]
+     Error_StandardDeviation:                0 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Inplace, Complex, float, Dim=1, Kind=powerof2 (2), Ext=32768
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0055878 [avg]
+       Time_PlanInitFwd [ms]:        0.0769946 [avg]
+       Time_PlanInitInv [ms]:        0.0739191 [avg]
+            Time_Upload [ms]:         0.115727 [avg]
+               Time_FFT [ms]:          0.67289 [avg]
+              Time_iFFT [ms]:         0.661458 [avg]
+          Time_Download [ms]:        0.0282966 [avg]
+       Time_PlanDestroy [ms]:        0.0826485 [avg]
+             Time_Total [ms]:          1.71809 [avg]
+   Size_DeviceBuffer [bytes]:           262144 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:           262144 [avg]
+     Error_StandardDeviation:       2.6588e-08 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Outplace, Real, float, Dim=1, Kind=powerof2 (2), Ext=32768
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0047406 [avg]
+       Time_PlanInitFwd [ms]:         0.142451 [avg]
+       Time_PlanInitInv [ms]:         0.137398 [avg]
+            Time_Upload [ms]:        0.0142777 [avg]
+               Time_FFT [ms]:         0.931272 [avg]
+              Time_iFFT [ms]:        0.0600874 [avg]
+          Time_Download [ms]:        0.0152895 [avg]
+       Time_PlanDestroy [ms]:        0.0507043 [avg]
+             Time_Total [ms]:          1.35655 [avg]
+   Size_DeviceBuffer [bytes]:           262152 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:           131072 [avg]
+     Error_StandardDeviation:                0 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Outplace, Complex, float, Dim=1, Kind=powerof2 (2), Ext=32768
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0085251 [avg]
+       Time_PlanInitFwd [ms]:        0.0505859 [avg]
+       Time_PlanInitInv [ms]:        0.0478457 [avg]
+            Time_Upload [ms]:        0.0975138 [avg]
+               Time_FFT [ms]:         0.524046 [avg]
+              Time_iFFT [ms]:         0.318121 [avg]
+          Time_Download [ms]:        0.0258301 [avg]
+       Time_PlanDestroy [ms]:        0.0939375 [avg]
+             Time_Total [ms]:          1.16675 [avg]
+   Size_DeviceBuffer [bytes]:           524288 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:           262144 [avg]
+     Error_StandardDeviation:       2.6588e-08 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Inplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=32768
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0003278 [avg]
+       Time_PlanInitFwd [ms]:        0.0560601 [avg]
+       Time_PlanInitInv [ms]:        0.0487148 [avg]
+            Time_Upload [ms]:        0.0250069 [avg]
+               Time_FFT [ms]:         0.040879 [avg]
+              Time_iFFT [ms]:        0.0544565 [avg]
+          Time_Download [ms]:        0.0309158 [avg]
+       Time_PlanDestroy [ms]:        0.0056519 [avg]
+             Time_Total [ms]:         0.262321 [avg]
+   Size_DeviceBuffer [bytes]:           262160 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:           262144 [avg]
+     Error_StandardDeviation:       2.7756e-17 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Inplace, Complex, double, Dim=1, Kind=powerof2 (2), Ext=32768
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0003778 [avg]
+       Time_PlanInitFwd [ms]:        0.0617467 [avg]
+       Time_PlanInitInv [ms]:        0.0557016 [avg]
+            Time_Upload [ms]:        0.0473031 [avg]
+               Time_FFT [ms]:          0.39734 [avg]
+              Time_iFFT [ms]:         0.493745 [avg]
+          Time_Download [ms]:        0.0490989 [avg]
+       Time_PlanDestroy [ms]:        0.0996335 [avg]
+             Time_Total [ms]:           1.2053 [avg]
+   Size_DeviceBuffer [bytes]:           524288 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:           524288 [avg]
+     Error_StandardDeviation:      5.41675e-17 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Outplace, Real, double, Dim=1, Kind=powerof2 (2), Ext=32768
+----------------------------------------------------------------------
+        Time_Allocation [ms]:        0.0004341 [avg]
+       Time_PlanInitFwd [ms]:         0.109341 [avg]
+       Time_PlanInitInv [ms]:         0.105666 [avg]
+            Time_Upload [ms]:        0.0270372 [avg]
+               Time_FFT [ms]:        0.0382774 [avg]
+              Time_iFFT [ms]:        0.0788024 [avg]
+          Time_Download [ms]:        0.0329471 [avg]
+       Time_PlanDestroy [ms]:        0.0065439 [avg]
+             Time_Total [ms]:         0.399433 [avg]
+   Size_DeviceBuffer [bytes]:           524304 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:           262144 [avg]
+     Error_StandardDeviation:       2.7756e-17 [avg]
+            Error_Mismatches:                0 [avg]
+----------------------------------------------------------------------
+Outplace, Complex, double, Dim=1, Kind=powerof2 (2), Ext=32768
+----------------------------------------------------------------------
+        Time_Allocation [ms]:         0.005533 [avg]
+       Time_PlanInitFwd [ms]:        0.0590677 [avg]
+       Time_PlanInitInv [ms]:        0.0558318 [avg]
+            Time_Upload [ms]:        0.0478214 [avg]
+               Time_FFT [ms]:          1.51107 [avg]
+              Time_iFFT [ms]:          0.76362 [avg]
+          Time_Download [ms]:        0.0495559 [avg]
+       Time_PlanDestroy [ms]:         0.140132 [avg]
+             Time_Total [ms]:          2.63301 [avg]
+   Size_DeviceBuffer [bytes]:      1.04858e+06 [avg]
+     Size_DevicePlan [bytes]:                0 [avg]
+ Size_DeviceTransfer [bytes]:           524288 [avg]
+     Error_StandardDeviation:      5.41675e-17 [avg]
+            Error_Mismatches:                0 [avg]
+
+Results dumped to /global/homes/p/polaya/projects/Results/2018_12_17-10:24:59-gnu_wc.csv
+
+real	0m1.001s
+user	0m9.216s
+sys	0m4.536s
+2018_12_17-10:25:01

@@ -1,0 +1,9 @@
+#!/bin/bash -l
+#SBATCH -q debug
+#SBATCH -N 2
+#SBATCH -C haswell 
+#SBATCH -t 00:10:00
+#SBATCH -J my_job
+
+srun -n 64 ./hello.sh
+# -N: nodos -t tiempomax -C filter de procesador. -J name job -q categoria para darle prioridad al trabajo.

@@ -1,0 +1,18 @@
+ -bfd=download -cc=mpicc -c++=mpicxx -fortran=mpif90 -mpi -pthread -pdt=/global/homes/p/polaya/sw/tau -papi=/global/homes/p/polaya/sw/papi
+ -bfd=download -cc=mpicc -c++=mpicxx -fortran=mpif90 -mpi -pthread -prefix=/global/homes/p/polaya/sw/tau -papi=/global/homes/p/polaya/sw/papi
+ -bfd=download -cc=gcc -c++=gxx -fortran=f90 -mpi -pthread -prefix=/global/homes/p/polaya/sw/tau -papi=/global/homes/p/polaya/sw/papi
+ -bfd=download -cc=gcc -c++=cxx -fortran=f90 -mpi -pthread -prefix=/global/homes/p/polaya/sw/tau -papi=/global/homes/p/polaya/sw/papi
+ -bfd=download -cc=gcc -c++=cxx -fortran=gnu -mpi -pthread -prefix=/global/homes/p/polaya/sw/tau -papi=/global/homes/p/polaya/sw/papi
+ -bfd=download -cc=gcc -c++=cxx -fortran=gnu -mpi -pthread -prefix=/global/homes/p/polaya/sw/tau
+ -bfd=download -cc=mpicc -c++=mpicxx -fortran=mpif90 -mpi -pthread
+ -GNU
+ -arch=bgq -mpi
+ -mpi
+ -mpi -papi=/global/homes/p/polaya/sw/papi -pthread -prefix=/global/homes/p/polaya/sw/tau
+ -mpi -papi=/global/homes/p/polaya/sw/papi -pthread -prefix=/global/homes/p/polaya/sw/tau -arch=craycnl
+ -bfd=download -cc=mpicc -c++=mpicxx -fortran=mpif90 -mpi -pthread prefix=/global/homes/p/polaya/sw/tau -papi=/global/homes/p/polaya/sw/papi
+ -bfd=download -cc=mpicc -c++=mpicxx -fortran=mpif90 -mpi -pthread -prefix=/global/homes/p/polaya/sw/tau -papi=/global/homes/p/polaya/sw/papi
+ -bfd=download -cc=mpicc -c++=mpicxx -fortran=mpif90 -mpi -pthread -prefix=/global/homes/p/polaya/sw/tau -papi=/global/homes/p/polaya/sw/papi -arch=craycnl
+ -bfd=download -cc=gcc -c++=g++ -openmp -pthread -prefix=/global/homes/p/polaya/sw/tau -papi=/global/homes/p/polaya/sw/papi -arch=craycnl
+ -bfd=download -cc=gcc -c++=g++ -openmp -pthread -prefix=/global/homes/p/polaya/sw/tau -papi=/opt/cray/pe/papi/5.6.0.3/bin -arch=craycnl
+ -bfd=download -cc=gcc -c++=g++ -openmp -pthread -prefix=/global/homes/p/polaya/sw/tau -papi=/opt/cray/pe/papi/5.6.0.3 -arch=craycnl

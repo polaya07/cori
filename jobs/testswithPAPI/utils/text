@@ -1,0 +1,1 @@
+THis is the output that powercap_plot gives when it starts up it's showing all of the counters that are available in the machine (Cori), sinc ethe application has not started yet, we know that the issue with SUBZONE1 being gone is not related with the applciation but it's related with the machine. 

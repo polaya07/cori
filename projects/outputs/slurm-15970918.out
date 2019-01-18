@@ -1,0 +1,12 @@
+/etc/bash.bashrc.local: line 8: /opt/modules/default/etc/modules.sh: Input/output error
+/bin/bash: /opt/cray/pe/modules/3.2.10.6/bin/modulecmd: Input/output error
+/bin/bash: /opt/cray/pe/modules/3.2.10.6/bin/modulecmd: Input/output error
+/bin/bash: /opt/cray/pe/modules/3.2.10.6/bin/modulecmd: Input/output error
+/var/spool/slurmd/job15970918/slurm_script: /opt/cray/pe/modules/3.2.10.6/bin/modulecmd: Input/output error
+/var/spool/slurmd/job15970918/slurm_script: /opt/cray/pe/modules/3.2.10.6/bin/modulecmd: Input/output error
+/var/spool/slurmd/job15970918/slurm_script: /opt/cray/pe/modules/3.2.10.6/bin/modulecmd: Input/output error
+/global/homes/p/polaya/projects/gearshifft-gnu-nw/bin/gearshifft_fftw: error while loading shared libraries: libboost_system.so.1.65.1: cannot open shared object file: No such file or directory
+
+real	0m0.551s
+user	0m0.000s
+sys	0m0.480s

@@ -1,0 +1,3 @@
+Fri Sep 28 22:35:50 2018: [unset]:_pmi_alps_init:alps_get_placement_info returned with error -1
+Fri Sep 28 22:35:50 2018: [unset]:_pmi_init:_pmi_alps_init returned -1
+libgcc_s.so.1 must be installed for pthread_cancel to work

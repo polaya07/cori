@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O2 -Wall -fopenmp$/;"	m
+LFLAGS	Makefile	/^LFLAGS = $/;"	m
+MAX_EVENTS	powercap_plot.c	12;"	d	file:
+PAPI_INCLUDE	Makefile	/^PAPI_INCLUDE = ${prefix}\/include $/;"	m
+PAPI_LIBRARY	Makefile	/^PAPI_LIBRARY = \/global\/homes\/p\/polaya\/Downloads\/papi\/src\/libpapi.a$/;"	m
+data_type	powercap_plot.c	/^int data_type[MAX_EVENTS];$/;"	v
+events	powercap_plot.c	/^char events[MAX_EVENTS][BUFSIZ];$/;"	v
+fff	powercap_plot.c	/^FILE *fff[MAX_EVENTS];$/;"	v
+filenames	powercap_plot.c	/^char filenames[MAX_EVENTS][BUFSIZ];$/;"	v
+main	powercap_plot.c	/^int main (int argc, char **argv)$/;"	f
+num_events	powercap_plot.c	/^static int num_events=0;$/;"	v	file:
+prefix	Makefile	/^prefix = \/global\/homes\/p\/polaya\/sw\/papi$/;"	m
+units	powercap_plot.c	/^char units[MAX_EVENTS][BUFSIZ];$/;"	v
